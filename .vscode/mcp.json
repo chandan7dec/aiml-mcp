@@ -1,0 +1,14 @@
+{
+    "servers": {
+        "employee": {
+            "command": "node",
+            "args": [
+                "${workspaceFolder}/employee-server/build/index.js"
+            ]
+        },
+        "github": {
+            "type": "http",
+            "url": "https://api.githubcopilot.com/mcp/"
+        }
+    }
+}
